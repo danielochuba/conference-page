@@ -97,7 +97,6 @@ a {
 
 .primary-text-container {
   background-color: rgb(144, 143, 143, 0.2);
-  
 }
 
 .primary-text {
@@ -123,6 +122,10 @@ a {
   padding-bottom: 50px;
 }
 
+.about-section-1 p {
+  color: rgb(0, 0, 0);
+}
+
 .main-program {
   text-align: center;
 }
@@ -132,9 +135,15 @@ a {
   text-align: left;
 }
 
-.row-edit div h4, .row-edit div h6 {
+.row-edit div h4,
+.row-edit div h6 {
   color: #ec5242;
   margin-left: 30px;
+}
+
+.foot-text p {
+  color: #272a31 !important;
+  font-size: 12px;
 }
 
 .row-edit div p {
@@ -158,7 +167,6 @@ a {
   width: 20%;
   margin: auto;
   padding: 10px;
-  
 }
 
 .about-section-4 {
@@ -253,10 +261,6 @@ body {
   text-align: center;
 }
 
-.about-section-1 p {
-  color: rgb(0, 0, 0);
-}
-
 .about-primary-heading {
   margin: auto;
   width: 100%;
@@ -265,7 +269,7 @@ body {
 .about-rule {
   width: 3%;
   color: #ec5242;
-  }
+}
 
 article .primary-text {
   color: #000;
@@ -273,7 +277,7 @@ article .primary-text {
 }
 
 small a em {
-  color: #000000;
+  color: #000;
 }
 
 .event {
@@ -315,11 +319,6 @@ small a em {
 
 footer {
   background: #fff !important;
-}
-
-.foot-text p {
-  color: #272a31 !important;
-  font-size: 12px;
 }
 
 /* JAVASCRIPT CONTROLLED CLASSES */

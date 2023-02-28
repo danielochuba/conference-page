@@ -12,11 +12,11 @@
   font-family: 'Poppins', sans-serif;
   line-height: 52.5px;
   font-size: 42px;
-   color: #ec5242;
-   width: 100%;
+  color: #ec5242;
+  width: 100%;
 }
 
-.primary-text{
+.primary-text {
   font-size: 16px;
 }
 
@@ -25,7 +25,7 @@
   width: 60%;
 }
 
-.program-box{
+.program-box {
   background-color: rgba(110, 110, 110, 0.2);
 }
 
@@ -49,14 +49,15 @@
   margin-top: 0;
   z-index: 10000;
 }
-.nav-1{
+
+.nav-1 {
   background: #272a31;
   position: fixed;
   right: 0;
   width: 100%;
-
 }
-.all-nav{
+
+.all-nav {
   position: sticky;
 }
 
@@ -71,18 +72,21 @@
   justify-content: center;
   margin-right: 5%;
 }
-.navbar-menu ul li a{
+
+.navbar-menu ul li a {
   color: rgb(0, 0, 0);
 }
-.navbar-menu ul li a:active,.navbar-menu ul li a:hover {
+
+.navbar-menu ul li a:active,
+.navbar-menu ul li a:hover {
   color: #ec5242;
 }
 
-.navbar-menu button{
+.navbar-menu button {
   border: 2px solid #ec5242;
 }
 
-.navbar-menu button:hover{
+.navbar-menu button:hover {
   background: #ec5242;
   color: white;
 }
@@ -132,29 +136,29 @@
 }
 
 .foot-text p {
-  color: #ffffff !important;
+  color: #fff !important;
   font-size: 17px !important;
 }
-.footer-text{
+
+.footer-text {
   padding-top: 22px;
 }
 
-.footer-container{
+.footer-container {
   height: 190px;
   background: #272a31;
-  
 }
 
 .row-edit div p {
   font-size: initial;
 }
 
-.row-edit div h4, .row-edit div h6 {
+.row-edit div h4,
+.row-edit div h6 {
   color: #ec5242;
   margin-left: 20px;
   font-size: large;
 }
-
 
 .nameTop {
   width: 50%;
@@ -174,10 +178,10 @@ article {
 footer {
   background: rgb(255, 255, 255) !important;
   margin-bottom: -20px;
-  
 }
+
 .foot-text {
-  color: rgb(255, 255, 255) ;
+  color: rgb(255, 255, 255);
 }
 
 .event-1 {
