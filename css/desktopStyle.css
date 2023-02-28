@@ -1,0 +1,203 @@
+* {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.menu,
+#modalMenu {
+  display: none;
+}
+
+.primary-heading,
+.about-primary-heading {
+  font-family: 'Poppins', sans-serif;
+  line-height: 52.5px;
+  font-size: 42px;
+  color: #ec5242;
+  width: 100%;
+}
+
+.primary-text {
+  font-size: 16px;
+}
+
+.primary-text-container {
+  background-color: rgb(144, 143, 143, 0.4);
+  width: 60%;
+}
+
+.program-box {
+  background-color: rgba(110, 110, 110, 0.2);
+}
+
+.navbar-toggle {
+  display: block;
+}
+
+.navbar {
+  border: 1px solid rgb(255, 255, 255);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  margin-top: 0;
+  z-index: 10000;
+}
+
+.nav-1 {
+  background: #272a31;
+  position: fixed;
+  right: 0;
+  width: 100%;
+}
+
+.all-nav {
+  position: sticky;
+}
+
+.navbar-logo {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-left: 5%;
+}
+
+.navbar-menu {
+  display: inline;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+.navbar-menu ul li a {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-menu ul li a:active,
+.navbar-menu ul li a:hover {
+  color: #ec5242;
+}
+
+.navbar-menu button {
+  border: 2px solid #ec5242;
+}
+
+.navbar-menu button:hover {
+  background: #ec5242;
+  color: white;
+}
+
+.navbar-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin: 0 20px;
+}
+
+.section-1 {
+  height: 100vh;
+  background-image: url(../images/header.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100% 100%;
+  padding-top: 179px;
+}
+
+.row-edit div h4 {
+  color: #ec5242;
+  margin-left: 0;
+}
+
+.row-edit div {
+  text-align: center;
+}
+
+.about-section-4 {
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 100%;
+  height: max-content;
+  background-color: #272a31;
+  color: rgb(164, 156, 156);
+  padding-bottom: 2%;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.finals {
+  background: #fff;
+}
+
+.foot-text p {
+  color: #fff !important;
+  font-size: 17px !important;
+}
+
+.footer-text {
+  padding-top: 22px;
+}
+
+.footer-container {
+  height: 190px;
+  background: #272a31;
+}
+
+.row-edit div p {
+  font-size: initial;
+}
+
+.row-edit div h4,
+.row-edit div h6 {
+  color: #ec5242;
+  margin-left: 20px;
+  font-size: large;
+}
+
+.nameTop {
+  width: 50%;
+  margin-left: 17%;
+}
+
+article {
+  width: 50%;
+  margin: auto;
+}
+
+.row-edit {
+  border: 1px solid;
+  text-align: center;
+}
+
+footer {
+  background: rgb(255, 255, 255) !important;
+  margin-bottom: -20px;
+}
+
+.foot-text {
+  color: rgb(255, 255, 255);
+}
+
+.event-1 {
+  background-image: url(https://media.istockphoto.com/id/1363104923/photo/diverse-modern-office-businessman-leads-business-meeting-with-managers-talks-uses.jpg?s=612x612&w=0&k=20&c=R6-SufHacJ6bCnviq37kik2Jl6RMdECybcUpEoRuMLs=);
+  margin-right: 50px !important;
+}
+
+.event-2 {
+  background-image: url(https://media.istockphoto.com/id/499517325/photo/a-man-speaking-at-a-business-conference.jpg?s=612x612&w=0&k=20&c=gWTTDs_Hl6AEGOunoQ2LsjrcTJkknf9G8BGqsywyEtE=);
+  margin-left: -40px !important;
+}
+
+.mob {
+  display: none;
+}
+
+.desk {
+  display: block;
+}

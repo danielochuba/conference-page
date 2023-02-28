@@ -1,0 +1,343 @@
+* {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+/* MOBILE MENU SECTION */
+
+/* Menu Icon */
+.menu {
+  border: none;
+  background-color: inherit;
+  display: initial;
+}
+
+.menuIcon {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(230, 152, 152);
+  margin: 6px 0;
+}
+
+/* Mobile menu content */
+.mobile-menu {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  padding-left: 90px;
+  padding-top: 50px;
+  background-color: #272a31;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mobile-menu-list {
+  margin-left: -16%;
+}
+
+.mobile-menu-list li {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.mobile-menu-list li a {
+  color: rgb(255, 255, 255);
+}
+
+.mobile-menu-list li a:hover {
+  color: #ec5242;
+}
+
+.exit-btn {
+  z-index: 1000;
+  position: absolute;
+  right: 50px;
+  border: none;
+  background-color: inherit;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+.navbar-menu ul li a:hover {
+  color: #fff;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+/* FIRST SECTION */
+.section-1 {
+  padding: 100px 20px 40px 20px;
+  background-image: url(../images/header.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 150% 100%;
+}
+
+.primary-heading,
+.about-primary-heading {
+  font-family: 'Poppins', sans-serif;
+  line-height: 52.5px;
+  font-size: 42px;
+  width: 70%;
+  color: #ec5242;
+}
+
+.primary-text-container {
+  background-color: rgb(144, 143, 143, 0.2);
+}
+
+.primary-text {
+  padding: 5px;
+  color: #fff;
+}
+
+.timeDate,
+.location-text {
+  color: #fff;
+}
+
+.timeDate {
+  background: rgba(255, 255, 255, 0.4);
+  width: fit-content;
+}
+
+/* SECOND SECTION */
+.section-2 {
+  background-image: url(../images/Partners.jpg);
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-section-1 p {
+  color: rgb(0, 0, 0);
+}
+
+.main-program {
+  text-align: center;
+}
+
+.row-edit {
+  border: 1px solid;
+  text-align: left;
+}
+
+.row-edit div h4,
+.row-edit div h6 {
+  color: #ec5242;
+  margin-left: 30px;
+}
+
+.foot-text p {
+  color: #272a31 !important;
+  font-size: 12px;
+}
+
+.row-edit div p {
+  font-size: 3.5vw;
+}
+
+#join {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 35px;
+  width: 70%;
+  color: #fff;
+  height: 70px;
+}
+
+#join:hover {
+  background-color: #ec5242;
+}
+
+.rule-top {
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+}
+
+.about-section-4 {
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+  background-color: #272a31;
+  color: rgb(164, 156, 156);
+  padding-bottom: 5%;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.logo-container {
+  margin-top: 5%;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* SPEAKERS SECTION */
+.speakers {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.speaker {
+  width: 90%;
+  margin: auto;
+}
+
+.card-body {
+  padding-right: 0;
+}
+
+.card-text {
+  font-size: 13px;
+}
+
+.speaker-img {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+.profile-shot {
+  margin-left: 7%;
+  width: 100%;
+  max-height: 100%;
+}
+
+.speaker-title {
+  text-align: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.speaker-title-1 {
+  color: red;
+  font-style: italic;
+}
+
+.speakers-rule {
+  width: 10%;
+  margin-top: 7px;
+  margin-bottom: 8px;
+}
+
+.see-more-btn {
+  background: #ec5242;
+  color: #fff;
+  width: 50%;
+  margin: auto;
+}
+
+/* ABOUT PAGE STYLES */
+.about-primary-heading,
+.greetings {
+  color: #ec5242;
+}
+
+.about-section-1 {
+  background-image: url(../images/header.png);
+  background-position: top;
+}
+
+.about-section-1,
+.about-primary-heading .about-section-2,
+.about-section-3,
+.about-section-4,
+.section-4 {
+  text-align: center;
+}
+
+.about-primary-heading {
+  margin: auto;
+  width: 100%;
+}
+
+.about-rule {
+  width: 3%;
+  color: #ec5242;
+}
+
+article .primary-text {
+  color: #000;
+  text-align: justify;
+}
+
+small a em {
+  color: #000;
+}
+
+.event {
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: auto;
+}
+
+.event-1 {
+  background-image: url(https://media.istockphoto.com/id/1363104923/photo/diverse-modern-office-businessman-leads-business-meeting-with-managers-talks-uses.jpg?s=612x612&w=0&k=20&c=R6-SufHacJ6bCnviq37kik2Jl6RMdECybcUpEoRuMLs=);
+}
+
+.event-2 {
+  background-image: url(https://media.istockphoto.com/id/499517325/photo/a-man-speaking-at-a-business-conference.jpg?s=612x612&w=0&k=20&c=gWTTDs_Hl6AEGOunoQ2LsjrcTJkknf9G8BGqsywyEtE=);
+}
+
+.event-text {
+  margin-top: 20%;
+  display: inline-block;
+  background: rgba(203, 196, 196, 0.7);
+  border-radius: 20px;
+}
+
+.event-images {
+  position: relative;
+  margin: auto;
+}
+
+.foot-text {
+  color: #000;
+}
+
+.finals {
+  background: rgb(255, 255, 255);
+}
+
+footer {
+  background: #fff !important;
+}
+
+/* JAVASCRIPT CONTROLLED CLASSES */
+.display-none {
+  display: none !important;
+}
+
+.display-block {
+  display: block;
+}
+
+.none-scroll {
+  overflow: hidden;
+}
+
+.desk {
+  display: none;
+}
+
+.mob {
+  display: block;
+}
