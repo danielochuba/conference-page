@@ -19,35 +19,35 @@ modalCloseBtn.addEventListener('click', () => {
 });
 
 const eventSpeakers = [{
-  image: '/images/portrait1.jpg',
+  image: './images/portrait1.jpg',
   name: 'Yochai Benkler',
   title: 'Berkman Professor of Enterprnurial Legal Studies at Havard Law School',
   brief: 'Benkler studies commons-based peer production, and published his seminal book; The Wealth of Networks in 2006',
 }, {
-  image: '/images/portrait4.jpg',
+  image: './images/portrait4.jpg',
   name: 'SohYeong Noh',
   title: 'Director of Art Center Nabi and a board member of CC Korea',
   brief: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
 },
 {
-  image: '/images/portrait2.jpg',
+  image: './images/portrait2.jpg',
   name: 'Kilnam Chon',
   title: '',
   brief: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons. In 2012, he was inducted into the inaugural class of the internet Society(ISOC) Internet Hall of Fame.',
 },
 {
-  image: '/images/portrait3.jpg',
+  image: './images/portrait3.jpg',
   name: 'Julia Leda',
   title: 'President of Young Pirates of Europe',
   brief: 'European ingetration, political democracy and participation of youthh through online as her major concern, Redia`s report outlinig potential changes to EU copyright law was approved by the Parliament in july.',
 }, {
-  image: '/images/portrait5.jpg',
+  image: './images/portrait5.jpg',
   name: 'Ryan Merkley',
   title: 'CEO of Creative Commons, ex COO of the Mozilla Foundation.',
   brief: 'Ryan has been leading open-source projects at the Mozilla Foundation such as the open source movement.',
 },
 {
-  image: '/images/portrait1.jpg',
+  image: './images/portrait1.jpg',
   name: 'Lila Tretikov',
   title: 'Execuive Director of the Wikimedia Foundation',
   brief: 'Lila Tretikov is the Executive Director of the wikimedia Foundation, the nonprofit organization that operates wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world every month',
