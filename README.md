@@ -151,7 +151,7 @@ Example command:
 
 - GitHub: [@githubhandle](https://github.com/danielochuba)
 - Twitter: [@twitterhandle](https://twitter.com/ochuba_daniel)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/daniel-ochuba-614572238)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/daniel-ochuba-ugochukwu)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
